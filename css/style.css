@@ -1,81 +1,117 @@
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, figure, footer, header, hgroup, menu, nav, section, menu,
-time, mark, audio, video {
-  margin:0;
-  padding:0;
-  border:0;
-  outline:0;
-  font-size:100%;
-  vertical-align:baseline;
-  background:transparent;
-}                  
-article, aside, figure, footer, header, hgroup, nav, section { display:block; }
-nav ul { list-style:none; }
-blockquote, q { quotes:none; }
-blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
-a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; }
-ins { background-color:#ff9; color:#000; text-decoration:none; }
-mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
-del { text-decoration: line-through; }
-abbr[title], dfn[title] { border-bottom:1px dotted #000; cursor:help; }
-table { border-collapse:collapse; border-spacing:0; }
-hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
-input, select { vertical-align:middle; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
 
 
-body { font:13px sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
-table { font-size:inherit; font:100%; }
-select, input, textarea { font:99% sans-serif; }
-pre, code, kbd, samp { font-family: monospace, sans-serif; }
- 
-body, select, input, textarea { color:#444; }
-h1,h2,h3,h4,h5,h6 { font-weight: bold; text-rendering: optimizeLegibility; }
-html { -webkit-font-smoothing: antialiased; }
-a:hover, a:active { outline: none; }
-a, a:active, a:visited { color:#607890; }
-a:hover { color:#036; }
-ul { margin-left:30px; }
-ol { margin-left:30px; list-style-type: decimal; }
-small { font-size:85%; }
-strong, th { font-weight: bold; }
-td, td img { vertical-align:top; } 
-sub { vertical-align: sub; font-size: smaller; }
-sup { vertical-align: super; font-size: smaller; }
+body {
+	background: #c36200 url(../images/brew-tile.jpg) repeat-x 50% top; 
+	color: #fff;
+	font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+}
 
-pre { padding: 15px; white-space: pre; white-space: pre-wrap; white-space: pre-line; word-wrap: break-word; }
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
 
-input[type="radio"] { vertical-align: text-bottom; }
-input[type="checkbox"] { vertical-align: bottom; *vertical-align: baseline; }
-.ie6 input { vertical-align: text-bottom; }
-label, input[type=button], input[type=submit], button { cursor: pointer; }
+header[role="banner"] {	
+	padding-top: 140px;
+}
 
-::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
-::selection { background:#FF5E99; color:#fff; text-shadow: none; } 
+header[role="banner"] h1 {
+	background: transparent url(../images/brew-title.png) no-repeat center top;
+	height: 126px;
+	overflow: hidden;
+	text-indent: -3000em;
+	width: 960px;
+}
 
-a:link { -webkit-tap-highlight-color: #FF5E99; } 
+header[role="banner"] h2,
+header[role="banner"] em {
+	display: none;
+}
 
-
-html { overflow-y: scroll; }
-button {  width: auto; overflow: visible; }
-.ie7 img { -ms-interpolation-mode: bicubic; }
-
-.ir { display:block; text-indent:-999em; overflow:hidden; background-repeat: no-repeat; }
-.hidden { display:none; visibility:hidden; } 
-.visuallyhidden { position:absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); }
-.invisible { visibility: hidden; }
-.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-.clearfix { display: inline-block; }
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-
-
- /* Primary Styles
-    Author: 
- */
-#main {
+#boyz-to-men-is-my-favorite-band {
+	/*background-color: rgba(150, 61, 0, 0.5);*/
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	color: #edf3e0;
+	font-size: 18px;
+	line-height: 1.4em;
+	margin: 0 auto;
+	margin-top: 85px;
+	padding: 20px 15px 0 15px;
 	text-align: center;
-	padding-top: 50px;
+	text-shadow: #924c00 2px 2px 1px;
+	width: 666px;
+}
+
+#boyz-to-men-is-my-favorite-band p {
+	padding-bottom: 22px;
+}
+
+#boyz-to-men-is-my-favorite-band p:first-child {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.45em;
+}
+
+#boyz-to-men-is-my-favorite-band a {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: bold;
+	padding: 0 2px;
+	text-decoration: none;
+}
+
+#boyz-to-men-is-my-favorite-band a:hover {
+	background-color: #fff;
+	color: #0c57c6;
+	text-shadow: none;
 }
