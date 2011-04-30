@@ -114,3 +114,11 @@ header[role="banner"] em {
 	color: #0c57c6;
 	text-shadow: none;
 }
+
+.error404 header[role="banner"] h1 {
+	background: transparent url(../images/brew-title-short.png) no-repeat center top;
+	height: 126px;
+	overflow: hidden;
+	text-indent: -3000em;
+	width: 960px;
+}
