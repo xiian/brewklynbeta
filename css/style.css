@@ -79,22 +79,22 @@ header[role="banner"] em {
 	-webkit-border-radius: 8px;
 	border-radius: 8px;
 	color: #edf3e0;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.4em;
 	margin: 0 auto;
 	margin-top: 70px;
 	padding: 20px 15px 0 15px;
 	text-align: center;
 	text-shadow: #924c00 2px 2px 1px;
-	width: 500px;
+	width: 550px;
 }
 
 #boyz-to-men-is-my-favorite-band p {
-	padding-bottom: 18px;
+	padding-bottom: 40px;
 }
 
 #boyz-to-men-is-my-favorite-band p:first-child {
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 	line-height: 1.45em;
 }
